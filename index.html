@@ -73,7 +73,16 @@
         });
         
         // Clear button functionality
-        clearBtn.addEventListener('click', () => {
+        clearBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            textField.value = '';
+            sessionStorage.removeItem('textContent');
+            textField.focus();
+        });
+        
+        // Also add touch support for e-readers
+        clearBtn.addEventListener('touchend', (e) => {
+            e.preventDefault();
             textField.value = '';
             sessionStorage.removeItem('textContent');
             textField.focus();
