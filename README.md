@@ -8,7 +8,7 @@ no notifications, no apps — but the Kobo has no real way to type notes.
 **The solution:** a single, permanent text field served as a minimal web page
 the Kobo's limited browser can actually handle. Pair a keyboard, open the
 page, and the e-reader becomes a typewriter. I photograph finished notes with
-my phone to track my note-taking over time.
+my phone to track my note-taking over time. The photos of the Kobo screen (I use my iPhone's built-in OCR if I want to copy text) keeps me enjoying the design of the process & device.
 
 ## Design constraints
 
